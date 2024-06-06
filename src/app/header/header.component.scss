@@ -1,0 +1,168 @@
+a{
+    display: inline;
+    text-decoration: none;
+    color: greenyellow;
+    // margin-right: 30px;
+    font-size: 30px;
+ 
+}
+li{
+    display: inline;
+    text-decoration: none;
+    color: rgb(213, 247, 164);
+    margin-right: 30px;
+    font-size: 30px; 
+}
+ul
+{
+    display: inline;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 30px;
+}
+// div ul li a::after{
+//     content: " ";
+//     width: 0;
+//     height: 3px;
+//     position:inherit;
+//      left: 25px;
+//      bottom: -6px;
+//     transition: 0.5s;
+  
+// }
+// .content:hover{
+//      transform: scale(1.2);
+//     // color: aqua;
+//     // font-size: 50px;
+
+// }
+
+
+nav::content{
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    transition: transform 0.3s ease-in-out;
+} 
+div ul li a:hover::after{
+    width: 0%;
+
+}
+
+a:hover{
+    color: rgb(163, 110, 12);
+    transform: scale(1.2);
+    
+}
+.content{
+    position: fixed;
+    top: 0;
+    padding: 22px;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // z-index: 100;
+    margin-left: 0;
+    background: transparent;
+    margin-top: 0px;
+    display: inline;
+    padding: 4px 43px 4px 583px;
+    // padding: 20px;
+    position: fixed;
+    float: right;
+    transition: .3s;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    // margin-top: 0px;
+    // display: inline;
+    // padding: 4px 43px 4px 621px;
+    // // padding: 20px;
+    // position: fixed;
+    // float: right;
+    // transition: .3s;
+    // background: transparent;
+    // backdrop-filter: blur(10px);
+}
+.name{
+    line-height: 4px;
+    display: inline-block;
+    font-size: 30px;
+    color: red;
+    margin: 9px;
+    // position: fixed;
+    transition: .3s;
+    background: transparent;
+    z-index: 100;
+    // backdrop-filter: blur(10px);
+}
+// @media (min-width:1024px) and (max-width:1440px) {
+ 
+// }
+
+// @media (min-width:290px) and (max-width:768px) {
+ 
+// }
+
+@media only screen and (min-width: 365px) and (max-width: 750px) {
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:767px) {
+    .content{
+        
+        font-size: 50px;
+    }   
+
+    ul,li{
+        margin-right: 5px;
+    font-size: 12px
+     }
+    
+    // .header{max-width: 700px ;
+    //          width: 80%;  }
+    .name{
+        color: green;
+        font-size: 21px;
+    }
+    ul,li,a{
+        margin-right: 10px;
+        font-size: 24px;
+    }
+
+        
+    }
+    
+@media (min-width:768px) and (max-width:1024px) {
+    .name{
+        color: yellow;}
+    
+
+
+}
+
+
+

@@ -1,0 +1,30 @@
+p{
+    color: rgb(255, 255, 255);
+    background-color: aquamarine;
+    font-size: 24px;
+    font-family: "poppins", sans-serif;
+    background-color: black;
+    padding: 5px 128px 0px 128px;
+    margin-left: 20px;
+}
+
+.about{
+    color: rgb(79, 133, 250);
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 42px;
+   
+}
+.front{
+    margin-top: 0px;
+    color: bisque;
+}
+img{
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+
+@media only screen and (min-width: 290px) and (max-width: 500px) {
+
+}

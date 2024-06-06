@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: black;
+    width: 85%;
+    
+}
+@media screen and (min-width:350px) and (max-width:700px){
+    body{
+        font-size: 51px;
+        width: 200%;
+        height: 400%;
+    }
+}
